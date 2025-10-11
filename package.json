@@ -3,12 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://salmaloukili.github.io/warmhome-connect/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build": "vite build || react-scripts build || vue-cli-service build",
+    "predeploy": "npm run build && cp dist/index.html dist/404.html || cp build/index.html build/404.html",
+    "deploy": "gh-pages -d dist || gh-pages -d build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
