@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
                 <ThermometerSun className="h-4 w-4 text-accent-foreground" />
               </div>
-              <span className="text-xl font-bold">ThermoExpert</span>
+              <span className="text-xl font-bold">AGLS</span>
             </div>
             <p className="text-primary-foreground/80 mb-4">
               {t('footerTagline')}
@@ -72,7 +72,7 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">{t('contact')}</h3>
             <div className="space-y-2 text-sm">
               <p className="text-primary-foreground/80">+1 (555) 123-4567</p>
-              <p className="text-primary-foreground/80">info@thermoexpert.com</p>
+              <p className="text-primary-foreground/80">info@AGLS.com</p>
               <p className="text-primary-foreground/80">24/7 {t('emergencyService')}</p>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 mt-8 pt-6 text-center">
           <p className="text-primary-foreground/80 text-sm">
-            © 2024 ThermoExpert. {t('allRightsReserved')}
+            © 2024 AGLS. {t('allRightsReserved')}
           </p>
         </div>
       </div>

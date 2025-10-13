@@ -100,7 +100,7 @@ const ContactForm = () => {
                 <Mail className="h-5 w-5 text-accent" />
                 <h3 className="font-semibold">Email</h3>
               </div>
-              <p className="text-primary">info@thermoexpert.com</p>
+              <p className="text-primary">info@AGLS.com</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg border border-border">

@@ -30,7 +30,7 @@ const Header = () => {
             <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
               <ThermometerSun className="h-4 w-4 text-accent-foreground" />
             </div>
-            <span className="text-xl font-bold text-primary">ThermoExpert</span>
+            <span className="text-xl font-bold text-primary">AGLS</span>
           </div>
 
           {/* Desktop Navigation */}

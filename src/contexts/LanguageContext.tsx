@@ -45,9 +45,9 @@ const translations = {
     preventiveCareDesc: 'Scheduled maintenance programs to prevent breakdowns.',
     
     // About
-    aboutTitle: 'About ThermoExpert',
+    aboutTitle: 'About AGLS',
     aboutSubtitle: 'With over 15 years of experience, we provide reliable heating solutions.',
-    whyTrust: 'Why Trust ThermoExpert?',
+    whyTrust: 'Why Trust AGLS?',
     certifiedExcellence: 'Certified Excellence',
     certifiedDesc: 'Fully licensed and insured professionals',
     localExpert: 'Local Expert',
@@ -114,9 +114,9 @@ const translations = {
     preventiveCareDesc: 'Programmes de maintenance programmée pour prévenir les pannes.',
     
     // About
-    aboutTitle: 'À propos de ThermoExpert',
+    aboutTitle: 'À propos de AGLS',
     aboutSubtitle: 'Avec plus de 15 ans d\'expérience, nous fournissons des solutions de chauffage fiables.',
-    whyTrust: 'Pourquoi faire confiance à ThermoExpert ?',
+    whyTrust: 'Pourquoi faire confiance à AGLS ?',
     certifiedExcellence: 'Excellence Certifiée',
     certifiedDesc: 'Professionnels entièrement agréés et assurés',
     localExpert: 'Expert Local',
@@ -183,9 +183,9 @@ const translations = {
     preventiveCareDesc: 'Geplande onderhoudsprogramma\'s om storingen te voorkomen.',
     
     // About
-    aboutTitle: 'Over ThermoExpert',
+    aboutTitle: 'Over AGLS',
     aboutSubtitle: 'Met meer dan 15 jaar ervaring leveren wij betrouwbare verwarmingsoplossingen.',
-    whyTrust: 'Waarom ThermoExpert vertrouwen?',
+    whyTrust: 'Waarom AGLS vertrouwen?',
     certifiedExcellence: 'Gecertificeerde Excellentie',
     certifiedDesc: 'Volledig gelicentieerde en verzekerde professionals',
     localExpert: 'Lokale Expert',

@@ -9,9 +9,9 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build": "vite build || react-scripts build || vue-cli-service build",
-    "predeploy": "npm run build && cp dist/index.html dist/404.html || cp build/index.html build/404.html",
-    "deploy": "gh-pages -d dist || gh-pages -d build",
+    "build": "vite build",
+    "predeploy": "npm run build && cp dist/index.html dist/404.html",
+    "deploy": "gh-pages -d dist",
     "postbuild": "cp dist/index.html dist/404.html"
   },
   "dependencies": {
@@ -71,7 +71,7 @@
     "@types/node": "^22.16.5",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
-    "@vitejs/plugin-react-swc": "^3.11.0",
+    "@vitejs/plugin-react": "^5.0.4",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.32.0",
     "eslint-plugin-react-hooks": "^5.2.0",
